@@ -1,8 +1,20 @@
 # Лабораторная работа №1 по дисциплине "Функциональная схемотехника"
+Выполнил: студент группы P33113 Лукьяненко Н.И.
+
+Преподаватель: Тищук Б.Ю. 
+
+(Юняша разрешила не ставить пробелы)
+
+Санкт-Петербург, 2021
 
 ## Задание
+1. Опишите на Verilog HDL на вентильном уровне модуль, реализующий функцию БОЭ в указанном логическом базисе согласно варианту задания.
+2. Разработайте тестовое окружение для созданного модуля.
+3. Проведите моделирование работы схемы.
+
 
 ## Схема
+![Schema](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/schema.png)
 
 ```
 y1 = x2 ⋁ x3 ⋁ x6 ⋁ x7
@@ -34,6 +46,7 @@ The encoder output for x8 = 1 is correct!
 ![Time diagram](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/diagram.png)
 
 ## Потребление ресурсов на FPGA
-
+![fpga](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/fpga.png)
 
 ## Вывод
+То ли еще будет.
