@@ -58,7 +58,7 @@ The encoder output for x8 = 1 is correct!
 ![Time diagram](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/diagram.png)
 
 ## Потребление ресурсов на FPGA
-![fpga](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/fpga.png)
+![Resource load fpga](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/resource-load.png)
 
 ## Вывод
-То ли еще будет.
+В ходе выполнения лабораторной работы была синтезирована комбинационная схема шифратора кода Грея для трехразрядных двоичных чисел и описана на языке Verilog HDL. Я познакомился с основами работы в среде Vivaldo и возможностями языка Verilog для моделирования и тестирования комбинационных схем.
