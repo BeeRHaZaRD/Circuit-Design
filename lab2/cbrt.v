@@ -11,9 +11,9 @@ module cbrt (
 	localparam IDLE = 0;
 	localparam WORK = 1;
 
-    reg [7:0] a;
-    reg [3:0] res;
-    reg state;
+	reg [7:0] a;
+	reg [3:0] res;
+	reg state;
     
 	assign busy_o = rst_i | state;
 
