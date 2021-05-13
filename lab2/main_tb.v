@@ -53,14 +53,14 @@ module main_tb;
                 expected <= 4 * a;
             end else if (b < 216) begin
                 expected <= 5 * a;
-            end else if (b < 343) begin
+            end else if (b < 256) begin
                 expected <= 6 * a;
             end
             #1
             $display("%d * cbrt(%d) = %d, expected = %d", a, b, res, expected);
-            if (!reset) begin
-                a <= a + 1;
-                b <= b + 1;
+            if (!reset && b < 256) begin
+                a <= a + 3;
+                b <= b + 6;
                 reset <= 1;
             end
         end else begin
