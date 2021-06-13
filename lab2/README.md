@@ -23,3 +23,6 @@ y = a * cbrt(b)
 
 ### Схема
 ![](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/lab2/img/shceme.png)
+
+## Вывод
+В ходе выполнения работы была создана последовательностная схема ускорителя математических вычислений.
