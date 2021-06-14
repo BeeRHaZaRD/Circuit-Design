@@ -14,7 +14,7 @@
 Шифратор кода Грея для трехразрядного двоичного числа
 
 ## Схема
-![Schema](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/schema.png)
+![Schema](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/lab1/schema.png)
 
 Таблица истинности:
 x1 | x2 | x3 | x4 | x5 | x6 | x7 | x8 | y3 | y2 | y1
@@ -55,10 +55,10 @@ The encoder output for x8 = 1 is correct!
 ```
 
 ## Временная диаграмма
-![Time diagram](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/diagram.png)
+![Time diagram](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/lab1/diagram.png)
 
 ## Потребление ресурсов на FPGA
-![Resource load fpga](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/resource-load.png)
+![Resource load fpga](https://github.com/BeeRHaZaRD/Circuit-Design/blob/main/lab1/resource-load.png)
 
 ## Вывод
 В ходе выполнения лабораторной работы была синтезирована комбинационная схема шифратора кода Грея для трехразрядных двоичных чисел и описана на языке Verilog HDL. Я познакомился с основами работы в среде Vivaldo и возможностями языка Verilog для моделирования и тестирования комбинационных схем.
